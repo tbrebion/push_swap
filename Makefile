@@ -6,7 +6,7 @@
 #    By: tbrebion <tbrebion@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/27 14:28:47 by tbrebion          #+#    #+#              #
-#    Updated: 2022/08/18 20:21:02 by tbrebion         ###   ########.fr        #
+#    Updated: 2023/03/13 20:07:23 by tbrebion         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,7 +29,7 @@ SRCS = $(ALGO) $(CFP) $(CMD) $(PRINTF) $(LST) $(PS)
 NAME = push_swap
 OBJS = $(SRCS:.c=.o)
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -g3
 RM = rm -f
 
 .c.o:
